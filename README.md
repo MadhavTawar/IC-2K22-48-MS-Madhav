@@ -1,1 +1,1 @@
-# Multimedia Lab Assignment
+# Multimedia Lab
