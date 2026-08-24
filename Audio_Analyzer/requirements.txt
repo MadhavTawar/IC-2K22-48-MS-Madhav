@@ -1,0 +1,8 @@
+# No external Python packages required.
+# This script relies on the ffprobe command-line tool (part of ffmpeg),
+# which must be installed separately and available on your system PATH.
+#
+# Install ffmpeg:
+#   Windows : https://ffmpeg.org/download.html  (or `choco install ffmpeg`)
+#   macOS   : brew install ffmpeg
+#   Linux   : sudo apt install ffmpeg
