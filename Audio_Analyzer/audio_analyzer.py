@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 audio_analyzer.py - Print basic metadata for an audio file.
 

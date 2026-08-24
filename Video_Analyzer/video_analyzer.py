@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 video_analyzer.py - Print basic metadata for a video file.
 
