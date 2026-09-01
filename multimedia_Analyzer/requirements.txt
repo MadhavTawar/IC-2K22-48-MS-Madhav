@@ -1,0 +1,9 @@
+Pillow
+
+# Also requires ffprobe (part of ffmpeg) for audio and video files.
+# This is a system tool, not a pip package, and must be installed separately.
+#
+# Install ffmpeg:
+#   Windows : https://ffmpeg.org/download.html  (or `choco install ffmpeg`)
+#   macOS   : brew install ffmpeg
+#   Linux   : sudo apt install ffmpeg

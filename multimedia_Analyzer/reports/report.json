@@ -1,0 +1,25 @@
+{
+  "file_type": "video",
+  "file_name": "video.mp4",
+  "file_size": 30484,
+  "container": "QuickTime / MOV",
+  "duration_sec": 2.0,
+  "video": {
+    "resolution": "320x240",
+    "frame_rate": "10/1",
+    "bit_rate": "42232",
+    "codec": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+  },
+  "audio": {
+    "codec": "AAC (Advanced Audio Coding)",
+    "channels": 1,
+    "sampling_rate": "44100",
+    "bit_rate": "69615"
+  },
+  "metadata": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomiso2avc1mp41",
+    "encoder": "Lavf60.16.100"
+  }
+}
