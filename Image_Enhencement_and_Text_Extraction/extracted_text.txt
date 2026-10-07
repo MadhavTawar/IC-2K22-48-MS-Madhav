@@ -1,0 +1,3 @@
+Hello Maddy, this is a test image.
+OCR should read this text clearly.
+Testing 1 2 3 - Voice Clone Project
