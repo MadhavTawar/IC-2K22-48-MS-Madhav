@@ -98,13 +98,13 @@ pip install -r requirements.txt
 Analyze one file:
 
 ```bash
-python main.py samples/image.jpg
+python main.py samples/image.jpeg
 ```
 
 Analyze multiple files of any mix of types in one run:
 
 ```bash
-python main.py samples/image.jpg samples/song.mp3 samples/video.mp4
+python main.py samples/image.jpeg samples/song.mp3 samples/video.mp4
 ```
 
 No arguments -> interactive prompt, one file at a time (blank line or

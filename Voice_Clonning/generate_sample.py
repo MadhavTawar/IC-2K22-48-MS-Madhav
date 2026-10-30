@@ -1,16 +1,18 @@
 import asyncio
+from pathlib import Path
+
 import edge_tts
 
 TEXT = (
-    "This is a test recording for my voice cloning project. I'm generating "
-    "this sample audio to check that the whole pipeline works correctly "
-    "before trying it with a real recording of my own voice."
+    "Namaste! This is a sample of Indian English for a voice cloning project. "
+    "Technology helps people share ideas and connect across India."
 )
-VOICE = "en-US-GuyNeural"  # change to en-US-JennyNeural for a female voice
+VOICE = "en-IN-PrabhatNeural"
 
 async def main():
-    await edge_tts.Communicate(TEXT, VOICE).save("sample.mp3")
-    print("Saved sample.mp3")
+    output_path = Path(__file__).resolve().parent / "sample.mp3"
+    await edge_tts.Communicate(TEXT, VOICE).save(str(output_path))
+    print(f"Saved {output_path}")
 
 if __name__ == "__main__":
     asyncio.run(main())
